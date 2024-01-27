@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MSI Gaming AMD Radeon RX 6500 XT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSI Gaming AMD Radeon RX 6500 XT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AMD Ryzen 7 5800X 8-core1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AMD Ryzen 7 5800X 8-core1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HP Chromebase 21.5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HP Chromebase 21.5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Apple iMac 21.5in 2.7GHz Core i5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apple iMac 21.5in 2.7GHz Core i5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dell P2422H - LED monitor - Full HD (1080p)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dell P2422H - LED monitor - Full HD (1080p).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corsair Vengeance RAM 64GB DDR4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Corsair Vengeance RAM 64GB DDR4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LG Ultra-Lightweight Intel Ci7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LG Ultra-Lightweight Intel Ci7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AMD Ryzen 9 5900X 12-core2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AMD Ryzen 9 5900X 12-core2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PowerColor Fighter AMD Radeon RX 6600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PowerColor Fighter AMD Radeon RX 6600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cherry Stream Keyboard Wired USB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cherry Stream Keyboard Wired USB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lenovo ThinkVision T24i-20 - LED monitor - Full HD (1080p)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lenovo ThinkVision T24i-20 - LED monitor - Full HD (1080p)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROCCAT Vulcan Pro Tactile Optical PC Gaming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ROCCAT Vulcan Pro Tactile Optical PC Gaming.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASUS ROG Zephyrus M16 GU603ZM Core i7 -12700H RTX 3060" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASUS ROG Zephyrus M16 GU603ZM Core i7 -12700H RTX 3060.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSI Gaming GeForce RTX 2060" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSI Gaming GeForce RTX 2060.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AMD Ryzen 5 5600X 6-core" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AMD Ryzen 5 5600X 6-core.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEAMGROUP Elite DDR3L 8GB Single" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TEAMGROUP Elite DDR3L 8GB Single.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lenovo IdeaCentre AIO 3-2022 - All-in-One Desktop - 24 FHD - HD Camera - Win 11-8GB Memory - 1TB + 256GB Storage - AMD Ryzen 3 5425U - Black -" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lenovo IdeaCentre AIO 3-2022 - All-in-One Desktop - 24 FHD - HD Camera - Win 11-8GB Memory - 1TB + 256GB Storage - AMD Ryzen 3 5425U - Black -.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Holkonbe Ergonomic Vertical Mouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Holkonbe Ergonomic Vertical Mouse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Western Digital 8TB WD Blue PC Internal Hard Drive HDD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Western Digital 8TB WD Blue PC Internal Hard Drive HDD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOORUI 24 Inch Computer Monitor -FHD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOORUI 24 Inch Computer Monitor -FHD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZOTAC Gaming GeForce RTX 3060" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZOTAC Gaming GeForce RTX 3060.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASUS ROG Zephyrus M16 GU603ZM Core i7 -12700H RTX 30601" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASUS ROG Zephyrus M16 GU603ZM Core i7 -12700H RTX 30601.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microsoft Natural" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Microsoft Natural.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seagate BarraCuda 8TB Internal Hard Drive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seagate BarraCuda 8TB Internal Hard Drive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="line - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\line - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASUS ROG Zephyrus M16 GU603ZM Core i7 -12700H RTX 30602" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASUS ROG Zephyrus M16 GU603ZM Core i7 -12700H RTX 30602.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Intel Core i5-13600K Desktop Processor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Intel Core i5-13600K Desktop Processor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SAMSUNG 970 EVO Plus SSD 2TB NVMe M.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SAMSUNG 970 EVO Plus SSD 2TB NVMe M.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OneOdio Bluetooth Over Ear Headphones Wireless.Wired" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OneOdio Bluetooth Over Ear Headphones Wireless.Wired.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAXSUN GEFORCE GT 1030" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAXSUN GEFORCE GT 1030.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptops" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptops.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSI MPG B550 Gaming Plus Gaming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSI MPG B550 Gaming Plus Gaming.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEAMGROUP Elite DDR4 16GB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TEAMGROUP Elite DDR4 16GB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LG FHD 32-Inch Computer Monitor 32ML600M-B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LG FHD 32-Inch Computer Monitor 32ML600M-B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lenovo IdeaPad 3 - Intel Core i7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lenovo IdeaPad 3 - Intel Core i7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SOULION R40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SOULION R40.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HP Pavilion - Intel Core i5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HP Pavilion - Intel Core i5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSI Gaming AMD Radeon RX 6500 XT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSI Gaming AMD Radeon RX 6500 XT1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Redragon S101 Wired Gaming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Redragon S101 Wired Gaming.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PowerColor Hellhound AMD Radeon RX 6600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PowerColor Hellhound AMD Radeon RX 6600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TECKNET Wired Mouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TECKNET Wired Mouse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AMD Ryzen 9 5900X 12-core" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AMD Ryzen 9 5900X 12-core.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows 11 Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows 11 Home.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crucial RAM 8GB DDR5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crucial RAM 8GB DDR5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="basket-cart-icon-27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basket-cart-icon-27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WD_BLACK 1TB SN850X NVMe Internal Gaming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WD_BLACK 1TB SN850X NVMe Internal Gaming.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kids Headphones with Microphone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kids Headphones with Microphone.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AMD Ryzen 9 5900X 12-core1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AMD Ryzen 9 5900X 12-core1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lenovo V14-ADA AMD Ryzen 3 3250u" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lenovo V14-ADA AMD Ryzen 3 3250u.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-computer-logo-with-monitor-and-cpu-symbol-image_289774" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-computer-logo-with-monitor-and-cpu-symbol-image_289774.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microsoft Office Home &amp; Student 2021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Microsoft Office Home &amp; Student 2021.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hardware" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hardware.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping-cart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping-cart1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="line1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\line1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HP All-in-One Desktop Computer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HP All-in-One Desktop Computer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accessories" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accessories.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TECKNET Wireless Mouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TECKNET Wireless Mouse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crucial RAM 64GB Kit (2x32GB) DDR5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crucial RAM 64GB Kit (2x32GB) DDR5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASUS ROG Strix B550-F Gaming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASUS ROG Strix B550-F Gaming.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orange line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orange line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monitor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Acer V246HQL - LED monitor - Full HD (1080p)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Acer V246HQL - LED monitor - Full HD (1080p).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crucial RAM 32GB DDR4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crucial RAM 32GB DDR4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASUS Prime B550-PLUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASUS Prime B550-PLUS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ARVICKA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ARVICKA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAXSUN GEFORCE GT 10301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAXSUN GEFORCE GT 10301.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="software" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\software.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cherry Stream Keyboard TKL Wired USB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cherry Stream Keyboard TKL Wired USB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corsair K70 PRO MINI WIRELESS RGB Gaming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Corsair K70 PRO MINI WIRELESS RGB Gaming.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Intel Core i7-12700KF Desktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Intel Core i7-12700KF Desktop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HUAWEI MateBook E (2022) Intel Core i3 11Gen 2-in-1 2.5K" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HUAWEI MateBook E (2022) Intel Core i3 11Gen 2-in-1 2.5K.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Intel Core i9-13900K Desktop Processor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Intel Core i9-13900K Desktop Processor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASUS Prime Z690-P WiFi D4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASUS Prime Z690-P WiFi D4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AMD Ryzen 5 5600X 6-core1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AMD Ryzen 5 5600X 6-core1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FENISIO Wired Mouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FENISIO Wired Mouse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fanxiang S201 256GB M.2 SSD 2280" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fanxiang S201 256GB M.2 SSD 2280.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeLUX Seeker Wireless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeLUX Seeker Wireless.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exit11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Silent Sound System Silent Disco 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silent Sound System Silent Disco 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping-cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping-cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logitech S120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logitech S120.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lenovo ThinkVision T24i-20 - LED monitor - Full HD (1080p)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lenovo ThinkVision T24i-20 - LED monitor - Full HD (1080p).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSI B550M PRO-VDH WiFi ProSeries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSI B550M PRO-VDH WiFi ProSeries.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSI PRO Z690-A ProSeries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSI PRO Z690-A ProSeries.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Verbatim Wired USB Computer Mouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Verbatim Wired USB Computer Mouse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Intel Core i9-13900K Desktop Processor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Intel Core i9-13900K Desktop Processor1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AMD Ryzen 7 5800X 8-core" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AMD Ryzen 7 5800X 8-core.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\storage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Acer Aspire C24-1700-UA91 AIO Desktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Acer Aspire C24-1700-UA91 AIO Desktop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HP Elite Desktop PC Computer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HP Elite Desktop PC Computer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dell Desktop Computer Package Compatible with Dell Optiplex 7010 Intel Quad Core i5 3.2GHz, 8GB Ram, 500GB HDD, 19-inch LCD, DVD, WiFi, Keyboard, Mouse, Windows 10 Pro (Renewed)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dell Desktop Computer Package Compatible with Dell Optiplex 7010 Intel Quad Core i5 3.2GHz, 8GB Ram, 500GB HDD, 19-inch LCD, DVD, WiFi, Keyboard, Mouse, Windows 10 Pro (Renewed).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SanDisk Professional 12TB G-DRIVE PRO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SanDisk Professional 12TB G-DRIVE PRO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

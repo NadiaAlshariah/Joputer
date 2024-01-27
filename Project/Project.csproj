@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F10E3520-257C-4F2B-A8EF-E4C55BE06292}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project</RootNamespace>
+    <AssemblyName>Project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PaymentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentForm.Designer.cs">
+      <DependentUpon>PaymentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShippingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShippingForm.Designer.cs">
+      <DependentUpon>ShippingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="computerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computerForm.Designer.cs">
+      <DependentUpon>computerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccsessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccsessForm.Designer.cs">
+      <DependentUpon>AccsessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AudioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AudioForm.Designer.cs">
+      <DependentUpon>AudioForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAccount.Designer.cs">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CartForm.Designer.cs">
+      <DependentUpon>CartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyboardForm.Designer.cs">
+      <DependentUpon>KeyboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomForm.Designer.cs">
+      <DependentUpon>CustomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GPUForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GPUForm.Designer.cs">
+      <DependentUpon>GPUForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RAMForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAMForm.Designer.cs">
+      <DependentUpon>RAMForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPUForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPUForm.Designer.cs">
+      <DependentUpon>CPUForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HardwareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HardwareForm.Designer.cs">
+      <DependentUpon>HardwareForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaptopForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaptopForm.Designer.cs">
+      <DependentUpon>LaptopForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonitorForm.Designer.cs">
+      <DependentUpon>MonitorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SoftwareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoftwareForm.Designer.cs">
+      <DependentUpon>SoftwareForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storagForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storagForm.Designer.cs">
+      <DependentUpon>storagForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersDBDataSet.cs">
+      <DependentUpon>UsersDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UsersDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PaymentForm.resx">
+      <DependentUpon>PaymentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShippingForm.resx">
+      <DependentUpon>ShippingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computerForm.resx">
+      <DependentUpon>computerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccsessForm.resx">
+      <DependentUpon>AccsessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AudioForm.resx">
+      <DependentUpon>AudioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount.resx">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CartForm.resx">
+      <DependentUpon>CartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyboardForm.resx">
+      <DependentUpon>KeyboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomForm.resx">
+      <DependentUpon>CustomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GPUForm.resx">
+      <DependentUpon>GPUForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAMForm.resx">
+      <DependentUpon>RAMForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPUForm.resx">
+      <DependentUpon>CPUForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HardwareForm.resx">
+      <DependentUpon>HardwareForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaptopForm.resx">
+      <DependentUpon>LaptopForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorForm.resx">
+      <DependentUpon>MonitorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoftwareForm.resx">
+      <DependentUpon>SoftwareForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storagForm.resx">
+      <DependentUpon>storagForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="UsersDBDataSet.xsc">
+      <DependentUpon>UsersDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UsersDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UsersDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UsersDBDataSet.xss">
+      <DependentUpon>UsersDBDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-computer-logo-with-monitor-and-cpu-symbol-image_289774.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket-cart-icon-27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laptops.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hardware.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accessories.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\storage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\software.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\custom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASUS ROG Zephyrus M16 GU603ZM Core i7 -12700H RTX 3060.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASUS ROG Zephyrus M16 GU603ZM Core i7 -12700H RTX 30601.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUAWEI MateBook E %282022%29 Intel Core i3 11Gen 2-in-1 2.5K.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lenovo IdeaPad 3 - Intel Core i7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lenovo V14-ADA AMD Ryzen 3 3250u.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HP Pavilion - Intel Core i5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LG Ultra-Lightweight Intel Ci7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASUS ROG Zephyrus M16 GU603ZM Core i7 -12700H RTX 30602.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Acer Aspire C24-1700-UA91 AIO Desktop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dell Desktop Computer Package Compatible with Dell Optiplex 7010 Intel Quad Core i5 3.2GHz, 8GB Ram, 500GB HDD, 19-inch LCD, DVD, WiFi, Keyboard, Mouse, Windows 10 Pro %28Renewed%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HP Chromebase 21.5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HP Elite Desktop PC Computer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lenovo IdeaCentre AIO 3-2022 - All-in-One Desktop - 24 FHD - HD Camera - Win 11-8GB Memory - 1TB + 256GB Storage - AMD Ryzen 3 5425U - Black -.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HP All-in-One Desktop Computer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apple iMac 21.5in 2.7GHz Core i5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dell P2422H - LED monitor - Full HD %281080p%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lenovo ThinkVision T24i-20 - LED monitor - Full HD %281080p%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lenovo ThinkVision T24i-20 - LED monitor - Full HD %281080p%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Acer V246HQL - LED monitor - Full HD %281080p%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOORUI 24 Inch Computer Monitor -FHD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LG FHD 32-Inch Computer Monitor 32ML600M-B.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows 11 Home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microsoft Office Home &amp; Student 2021.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASUS Prime B550-PLUS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASUS Prime Z690-P WiFi D4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASUS ROG Strix B550-F Gaming.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSI B550M PRO-VDH WiFi ProSeries.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSI MPG B550 Gaming Plus Gaming.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSI PRO Z690-A ProSeries.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMD Ryzen 5 5600X 6-core.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMD Ryzen 7 5800X 8-core.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMD Ryzen 9 5900X 12-core.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intel Core i5-13600K Desktop Processor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intel Core i7-12700KF Desktop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intel Core i9-13900K Desktop Processor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMD Ryzen 5 5600X 6-core1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMD Ryzen 7 5800X 8-core1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intel Core i9-13900K Desktop Processor1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMD Ryzen 9 5900X 12-core1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMD Ryzen 9 5900X 12-core2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crucial RAM 32GB DDR4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crucial RAM 64GB Kit %282x32GB%29 DDR5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TEAMGROUP Elite DDR4 16GB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Corsair Vengeance RAM 64GB DDR4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crucial RAM 8GB DDR5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TEAMGROUP Elite DDR3L 8GB Single.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fanxiang S201 256GB M.2 SSD 2280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAMSUNG 970 EVO Plus SSD 2TB NVMe M.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WD_BLACK 1TB SN850X NVMe Internal Gaming.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSI Gaming AMD Radeon RX 6500 XT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSI Gaming GeForce RTX 2060.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZOTAC Gaming GeForce RTX 3060.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAXSUN GEFORCE GT 1030.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PowerColor Fighter AMD Radeon RX 6600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PowerColor Hellhound AMD Radeon RX 6600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAXSUN GEFORCE GT 10301.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSI Gaming AMD Radeon RX 6500 XT1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Verbatim Wired USB Computer Mouse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FENISIO Wired Mouse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TECKNET Wired Mouse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeLUX Seeker Wireless.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Holkonbe Ergonomic Vertical Mouse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TECKNET Wireless Mouse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ARVICKA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logitech S120.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SOULION R40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kids Headphones with Microphone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Silent Sound System Silent Disco 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OneOdio Bluetooth Over Ear Headphones Wireless.Wired.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Redragon S101 Wired Gaming.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Corsair K70 PRO MINI WIRELESS RGB Gaming.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROCCAT Vulcan Pro Tactile Optical PC Gaming.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cherry Stream Keyboard TKL Wired USB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cherry Stream Keyboard Wired USB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microsoft Natural.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seagate BarraCuda 8TB Internal Hard Drive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Western Digital 8TB WD Blue PC Internal Hard Drive HDD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SanDisk Professional 12TB G-DRIVE PRO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UsersDB.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
